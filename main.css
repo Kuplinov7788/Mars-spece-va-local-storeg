@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 2px solid #008CFF;
+}
+
+.top-bar img {
+    height: 32px;
+}
+
+.lang {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+}
+
+.login-box {
+    background: white;
+    border-radius: 20px;
+    padding: 32px 24px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.top-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-login img {
+    height: 24px;
+}
+
+.offerta {
+    color: #FF4D30;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #141414;
+    font-weight: 700;
+}
+
+.tab {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab button {
+    flex: 1;
+    padding: 12px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    color: #141414;
+}
+
+.tab button.active {
+    background-color: white;
+    border: 2px solid #dedede;
+}
+
+form input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    border: 1.5px solid #E0E0E0;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+.password-box {
+    position: relative;
+}
+
+.password-box .eye {
+    position: absolute;
+    right: 16px;
+    top: 14px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.qr-text {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 16px;
+    color: #555;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #FF744A;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
