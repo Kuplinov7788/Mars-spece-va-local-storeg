@@ -5,6 +5,14 @@
     font-family: 'Inter', sans-serif;
 }
 
+.eroor {
+    color: #FF4D30;
+    padding-top: 20px;
+    text-align: center;
+    display: none;
+    font-size: 18px;
+}
+
 body {
     background-color: #f8f8f8;
 }
@@ -135,3 +143,4 @@ form input {
     font-weight: 600;
     cursor: pointer;
 }
+
