@@ -8,3 +8,15 @@ let names = document.querySelector('.name')
 names.textContent = `${getStudents.names} | ${getStudents.surname}`
 avatar[0].src = getStudents.profilRasimi
 avatar[1].src = getStudents.profilRasimi
+``
+
+
+
+
+
+
+
+let locationshop = document.querySelector('.location')
+locationshop.addEventListener('click', () => {
+    window.location.href = 'shop.html'
+})

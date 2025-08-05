@@ -39,6 +39,19 @@ let studets = [
         profilRasimi: 'https://sun9-76.userapi.com/impg/BH2W9722Ce0jD7skEULOVJZ8Cp7et_8-2u5a5w/cxlD6Z-2NsI.jpg?size=1080x1335&quality=95&sign=c1a50b5124821b0b9f8b853c721f4961&c_uniq_tag=ggD_cjRNs1XrHayvW-_bhZ8jk5YgTkVtRIoSLC4cX-k&type=album',
         login: 3321412,
         password: 6668544,
+    },
+    {
+        id: 3,
+        names: 'Jaska',
+        surname: 'Xunuev',
+        coin: 100,
+        quvvat: 0,
+        daraja: 'bot',
+        ustoziniIsmi: 'Ertan Emirhan',
+        qaysiGUrux: 777,
+        profilRasimi: 'https://gdb.voanews.com/7f93f6fb-0e9d-474e-ae4f-b642b119fdad_w408_r1_s.jpg',
+        login: 544434,
+        password: 3251512,
     }
 
 ]
@@ -77,6 +90,11 @@ submit.addEventListener('click', (e) => {
         let intervar = setTimeout(() => {
             eroor.style.display = 'none'
         }, 2000)
+
+
+
     }
+
+
 })
 
